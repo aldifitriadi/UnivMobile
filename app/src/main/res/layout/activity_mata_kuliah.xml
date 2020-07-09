@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?attr/customBackgroundColor"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MataKuliahActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:text="Teknik Informatika"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="?attr/customHintEditText"
+                    android:layout_height="1dp"/>
+
+                <TableLayout
+                    android:id="@+id/table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f1f1f1"
+                    android:layout_marginHorizontal="10dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Senin"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow
+                        >
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pemrogramman Android"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Noor Falih"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Selasa"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Etika Profesi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sondang Sibuea"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jaringan Komputer"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fezan Nabawi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rabu"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_weight="1"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:text="3" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Metode Numerik"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Eka Saraswati"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rekayasa Perangkat Lunak"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="M. Ridwan Efendi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kamis"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rangkaian Digital"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dedi Setiadi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pemodelan dan Simulasi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yohanes Bowo"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                </TableLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:text="Sistem Informasi"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Senin"
+                    android:textStyle="bold"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <TableLayout
+                    android:id="@+id/table2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f1f1f1"
+                    android:layout_marginHorizontal="10dp"
+                    >
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow
+                        >
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pemrogramman Android"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Noor Falih"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Selasa"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Etika Profesi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sondang Sibuea"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Analisis Perancangan SI"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hesti Rian "
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rabu"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="RPL Sistem Management"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="M. Ridwan Effendi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kamis"
+                        android:textStyle="bold"
+                        android:background="#fff"/>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sks"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mata Kuliah"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dosen"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Desain Grafis Dan Animasi"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fahrul Hidayat"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sistem Penunjang Keputusan"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ir. M. Amin Sakaria"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginHorizontal="1dp" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

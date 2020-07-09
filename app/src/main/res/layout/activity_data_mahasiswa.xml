@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/customBackgroundColor"
+    tools:context=".Common.User.Activities.Mahasiswa.DataMahasiswa">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Teknik Informatika"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:layout_height="1dp"
+                    android:background="?attr/customHintEditText"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:id="@+id/table"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f1f1f1"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                        <TableRow
+                            android:padding="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NIM"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NAMA"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="JENIS KELAMIN"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TGL. Lahir"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No. Telp"
+                                android:textStyle="bold"
+                                android:layout_marginRight="10dp"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/satu">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181002"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Filipus Reinaldo Julianto Fau"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nias, 03-07-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 812-4718-1237"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="10dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/dua">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181003"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Miftah Dwi Arviandi"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 18-09-1998"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 812-8534-4184"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tiga">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181004"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Bayu Tri Wicaksono"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Surabaya, 25-03-1997"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 855-1136-770"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empat">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181006"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mohamad Ichsan Maulana"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 24-03-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 896-3566-2607"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/lima">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181008"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dana Irawan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Depok, 14-08-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 889-7754-6106"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enam">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181009"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Maftuh Farhan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 04-04-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 815-4688-0912"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuh">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181010"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Petrus Milenius"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 16-01-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 822-9828-4391"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/delapan">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181014"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Najamuddin"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 23-11 -1998"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 882-1116-3481"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sembilan">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181016"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Muhammad Zainulabidin"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 13-08-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-3394-81395"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sepuluh">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181019"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Aryodamar Ananta Sudiro"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 30-09-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-3668-35667"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sebelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181020"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Afwan Fajar Sobari"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 25-02-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-0380-1101"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duabelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181022"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Muhamad Saddam Ramadhan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 01-01-2001"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 857-1748-4608"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tigabelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181023"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Oddi Nirwanto"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 20-06-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 858-8900-6938"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empatbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181028"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ichsan Fauzi"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 18-10-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 813-8092-6066"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/limabelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181030"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Luqman Nur Faris"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 06-09-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 882-9101-0979"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enambelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181031"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Eko Prasetyo"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 29-07-1994"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 856-9577-6190"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuhbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181039"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fathur Rahman Fauzan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Depok, 16-01-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-3685-67925"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/delapanbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181043"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rudi Hermawan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 18-11-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 857-1807-1606"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sembilanbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181148"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dandi Fikri Maulana"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 30-06-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 821-1155-8960"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duapuluh">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181149"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Maya Handayani"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Perempuan"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 28-02-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 821-1155-8960"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duasatu">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2023191038"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:paddingHorizontal="10dp"
+                                android:text="Faisal Fuad Mahmud" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Yogyakarta, 28-02-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-3637-04791"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Sistem Informasi"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="1dp"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:background="#000"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:id="@+id/table2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f1f1f1"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                        <TableRow
+                            android:padding="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NIM"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NAMA"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="JENIS KELAMIN"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TGL. Lahir"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No. Telp"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/satu2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181001"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Abhyasa Yusuf Irsan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 21-11-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 859-5938-6732"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/dua2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181002"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Alfiana Ilmi Safani"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Perempuan"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 20-05-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 877-7531-3387"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tiga2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181004"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deden Fauzan Yulianto"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Surabaya, 24-02-1999"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-3481-23376"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empat2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181005"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dimas Syarif Hidayatullah"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 19-05-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 895-7030-86517"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/lima2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181009"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Panedi Patera"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta, 08-06-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 878-8695-1872"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enam2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181011"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Winda Hasanah"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Perempuan"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pekalongan, 20-06-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 858-8308-2005"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuh2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181018"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Muhammad Suyudi"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Laki-Laki"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sinar Ogan, 29-02-2000"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="+62 812-7436-8537"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                    </TableLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

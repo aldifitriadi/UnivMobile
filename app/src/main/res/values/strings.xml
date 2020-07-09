@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">UnivMobile</string>
+
+    <string name="powered_by">Powered by Fakultas Komputer</string>
+
+    <!--Titles-->
+    <string name="first_slide_title">Selamat Datang</string>
+    <string name="second_slide_title">Info Kampus</string>
+    <string name="third_slide_title">Mahasiswa</string>
+    <string name="fourth_slide_title">Enjoy</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Selamat datang di aplikasi kami.</string>
+    <string name="second_slide_desc">Informasi kampus Universitas Mohammad Husni Thamrin.</string>
+    <string name="third_slide_desc">Info data diri anda dan mahasiswa lainnya.</string>
+    <string name="fourth_slide_desc">Nikmati Fitur Aplikasi.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="textprofile2">Universitas Mohammad Husni Thamrin Jakarta merupakan salah satu Perguruan Tinggi swasta di indonesia yang berbentuk Universitas, dikelola oleh dikti dan termasuk kedalam kopertis wilayah 3. Kampus ini telah beridiri sejak 28 Maret 1996 dengan Nomor SK PT 357/E/O/2013 dan Tanggal SK PT 30 Agustus 2013 , Universitas ini beralamat di Jl. Pondok Gede No. 23-25, kabupaten/kota Jakarta Timur, Provinsi Jakarta, Indonesia.</string>
+    <string name="texttentang2">Yayasan Pendidikan MH. Thamrin didirikan di Jakarta oleh Dr. H. Abdul Radjak, DSOG (Radjak Group), dan beralamat di Jl. Raya Podok Gede No. 23-25 Kramat Jati Jakarta Timur dan menempati gedung milik sendiri.\n\n
+        Pendirian Yayasan didorong oleh suatu cita-cita dan tekad, ikut berperan aktif dalam usaha mencerdaskan kehidupan bangsa, seperti yang diamanatkan dalam Pembukaan Undang-Undang Dasar 1945.\n
+        Pada awal pendiriannya pendidikan yang yang dikelola adalah pendidikan setingkat kursus, dengan membuka kursus Penolong Orang Sakit (POS), ini berlangsung dari tahun 1982-1983, selanjutnya dikembangkan ke sekolah formal setingkat diploma yang bernaung dibawah Departemen Kesehatan, antara lain : Akademi Keperawatan, Akademi Gizi, Akademi Analis Kesehatan, Akademi Analis dan Farmasi, Akademi Manajemen Pelayanan Rumah Sakit, Akademi Kebidanan. Mulai tahun 2000, seluruh Akademi yang berada dibawah Departemen Kesehatan dilebur menjadi satu ke dalam sekolah tinggi, yaitu Sekolah Tinggi Ilmu Kesehatan (STIKES) MH. Thamrin, dengan Surat Keputusan Mediknas No. : 60/D/O/2005, dan bernaung dibawah Depatartemen Pendidikan, sesuai dengan Undang-undang Sistem Pendidikan Nasional Republik Indonesia.\n\n
+        Disamping STIKES Yayasan Pendidikan MH. Thamrin juga mengelola Sekolah Tinggi Ilmu Ekonomi (STIE) MH. Thamrin, yang didirikan pada tahun 1996 Surat Keputusan Mediknas No. : 06/D/O/1996. dan Sekolah Tinggi Manajemen dan Informatika (STMIK) MH. Thamrin, Surat Keputusan Mediknas No. : 106/D/O/2000. STMIK merupakan pengembangan/perubahan dari Akademi Manajemen dan Informatika (AMIK) MH. Thamrin serta Akademi manajemen. MH. Thamrin. Ke depan seluruh sekolah tinggi ada akan digabung menjadi satu ke dalam satu Universitas. Yayasan Pendidikan MH. Thamrin akan senantiasa akan berperan aktif dalam pengembangan sumber daya manusia yang berkualitas, mempunyai wawasan luas, bertanggungjawab serta mempunyai kredibilitas yanga tinggi sesuai bidang ilmu yang dipelajarinya dan mampu menjawab tantangan diera globalisasi dengan menyediakan tenaga yang berkualitas.</string>
+    <string name="dark_mode_text">Dark Mode</string>
+</resources>

@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackgroundColor"
+    android:orientation="vertical"
+    tools:context=".Common.User.Activities.Mahasiswa.DataDosen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Data Dosen"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="1dp"
+                    android:background="?attr/customHintEditText"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:id="@+id/table"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f1f1f1"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                        <TableRow
+                            android:paddingRight="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:layout_marginRight="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Foto"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NIK"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nama"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mata Pelajaran"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jenis Kelamin"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Program Studi"
+                                android:paddingHorizontal="10dp"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/satu">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text="01" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Abu Sopian, M.Kom."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="35dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/dua">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text="02" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Drs. Yaziz Hasan"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tiga">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 03" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Ir. Yohanes Bowo Widodo M.Kom."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empat">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 04" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Ady Wijaya, SKM.,M.Kom."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/lima">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 05" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Sriyanto, ST."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enam">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 06" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Sondang Sibuea, S.Kom.,M.Kom"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuh">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 07" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Mohammad Narji, S.Kom.,M.Kom."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/delapan">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 08" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Arie Bayu Untoro, S.KOM.,MTI"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sembilan">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 09" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Dadang Pandhu Dewantoro, ST., MTI"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="TI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sepuluh">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 10" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Aulia Oktafiandi"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sebelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 11" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Febrianti Widyahastuti, BSc., M.Sc."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Perempuan"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duabelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 12" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Drs. Jauhari, MM"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tigabelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 13" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Muhammad Ridwan Effendi, S.Kom.,MMSI"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empatbelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 14" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Ir. Munaryo, MT."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/limabelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 15" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Rano Agustino, S.Kom.,M.Kom"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enambelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 16" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Ir. M. Aamin Sakaria, MMSI"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuhbelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 17" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="M.Iksan Saputro, ST.,M.KOM."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/delapanbelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 18" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Eka Satryawati, S.KOM.,MKOM."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Perempuan"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sembilanbelas">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 19" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Handa Gustiawan, M.KOM"
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="SI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duapuluh">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 20" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Dedi Setiadi, S.KOM., MM."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="MI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duasatu">
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:background="#fff"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/dosen"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:gravity="center"
+                                android:paddingHorizontal="13dp"
+                                android:text=" 21" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Frances Roi Seston Tampubolon, ST.,MSE."
+                                android:gravity="center_vertical"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Kurikulum 2018 Fkom"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="Laki-laki"
+                                android:paddingHorizontal="30dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="60dp"
+                                android:text="MI"
+                                android:paddingHorizontal="55dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

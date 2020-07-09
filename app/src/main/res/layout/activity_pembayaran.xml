@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/customBackgroundColor"
+    tools:context=".Common.User.Activities.Mahasiswa.DataMahasiswa">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Teknik Informatika"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="?attr/customHintEditText"
+                    android:layout_height="1dp"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:id="@+id/table"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f1f1f1"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                        <TableRow
+                            android:padding="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NIM"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NAMA"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Keterangan"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/satu">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181002"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Filipus Reinaldo Julianto Fau"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/dua">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181003"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Miftah Dwi Arviandi"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tiga">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181004"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Bayu Tri Wicaksono"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empat">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181006"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mohamad Ichsan Maulana"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/lima">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181008"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dana Irawan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enam">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181009"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Maftuh Farhan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuh">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181010"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Petrus Milenius"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/delapan">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181014"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Najamuddin"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sembilan">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181016"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Muhammad Zainulabidin"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sepuluh">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181019"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Aryodamar Ananta Sudiro"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sebelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181020"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Afwan Fajar Sobari"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duabelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181022"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Muhamad Saddam Ramadhan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tigabelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181023"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Oddi Nirwanto"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empatbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181028"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ichsan Fauzi"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/limabelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181030"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Luqman Nur Faris"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enambelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181031"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Eko Prasetyo"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuhbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181039"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fathur Rahman Fauzan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/delapanbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181043"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rudi Hermawan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/sembilanbelas">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181148"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dandi Fikri Maulana"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duapuluh">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2022181149"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Maya Handayani"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/duasatu">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2023191038"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="1dp"
+                                android:layout_weight="1"
+                                android:background="#ffffff"
+                                android:paddingHorizontal="10dp"
+                                android:text="Faisal Fuad Mahmud" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Sistem Informasi"
+                    android:fontFamily="@font/brandon_grotesque_black"
+                    android:textColor="?attr/customPrimaryTextColor"
+                    android:textSize="20dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="1dp"
+                    android:background="?attr/customHintEditText"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableLayout
+                        android:id="@+id/table2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f1f1f1"
+                        android:layout_marginHorizontal="10dp"
+                        >
+                        <TableRow
+                            android:padding="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NIM"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="NAMA"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Keterangan"
+                                android:textStyle="bold"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:gravity="center"/>
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/satu2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181001"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Abhyasa Yusuf Irsan"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/dua2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181002"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Alfiana Ilmi Safani"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tiga2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181004"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deden Fauzan Yulianto"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/empat2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181005"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dimas Syarif Hidayatullah"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/lima2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181009"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Panedi Patera"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/enam2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181011"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Winda Hasanah"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tujuh2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2012181018"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingHorizontal="10dp"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Muhammad Suyudi"
+                                android:paddingHorizontal="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anda Tidak Memiliki Tagihan"
+                                android:textColor="@android:color/holo_green_light"
+                                android:paddingHorizontal="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginRight="1dp"
+                                android:background="#ffffff" />
+                        </TableRow>
+
+                    </TableLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.univmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/matkul"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/matkul"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Common.User.Activities.Mahasiswa.SettingsActivity"/>
+        <activity android:name=".Common.User.Activities.Mahasiswa.FasilitasActivity" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.Pembayaran" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.DataDosen" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.MataKuliah" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.DataMahasiswa" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.InfoFakultas" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.TentangKampus" />
+        <activity android:name=".Common.User.Activities.Mahasiswa.InfoMahasiswa" />
+        <activity android:name=".Common.User.Activities.EditProfile" />
+        <activity android:name=".Common.LoginSignUp.RegisterActivity" />
+        <activity android:name=".Common.User.Activities.HomeActivity" />
+        <activity android:name=".Common.LoginSignUp.LoginActivity" />
+        <activity
+            android:name=".Common.User.OnBoarding"
+            android:theme="@style/NoAppTheme" />
+        <activity
+            android:name=".Common.User.SplashScreen"
+            android:theme="@style/NoAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Common.User.Activities.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Common.User.Activities.PostDetailActivity" />
+    </application>
+
+</manifest>

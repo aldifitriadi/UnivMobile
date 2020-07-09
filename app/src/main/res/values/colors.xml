@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0074e4</color>
+    <color name="colorPrimaryDark">#264e86</color>
+    <color name="colorAccent">#74dbef</color>
+
+    <!--Dark Mode Colors-->
+    <color name="colorPrimaryNight">#0074e4</color>
+    <color name="colorPrimaryNightBg">#000</color>
+    <color name="colorPrimaryDarkNight">#0074e4</color>
+    <color name="colorAccentNight">#74dbef</color>
+
+    <!--Extra Colors-->
+    <color name="primaryText">#000000</color>
+    <color name="secondaryText">#1a1a1a</color>
+
+    <color name="primaryTextNight">#FFFFFF</color>
+    <color name="secondaryTextNight">#CFCFCF</color>
+
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardBackgroundNight">#1a1a1a</color>
+
+    <color name="imageBackground">#000</color>
+    <color name="imageBackgroundNight">#fff</color>
+
+    <color name="editText">@android:color/darker_gray</color>
+    <color name="editTextNight">#CFCFCF</color>
+
+    <color name="textColor2">@android:color/darker_gray</color>
+    <color name="textColor2Night">#CFCFCF</color>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945685726591",
+    "firebase_url": "https://univmobile-315aa.firebaseio.com",
+    "project_id": "univmobile-315aa",
+    "storage_bucket": "univmobile-315aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945685726591:android:592a37bf9dc5d0a7eec64a",
+        "android_client_info": {
+          "package_name": "com.example.univmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945685726591-n7tscgt9kibpft8sn2gef7uv0tvnh4b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbwAQP2L-jeqNjuCY7AEBO2PeL51uh7xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945685726591-n7tscgt9kibpft8sn2gef7uv0tvnh4b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
